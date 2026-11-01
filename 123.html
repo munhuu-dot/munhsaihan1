@@ -1,0 +1,82 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>lab4</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="500" height="500" style="border: 1px solid blue;"></canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+
+        ctx.font = "16px Arial";
+        ctx.fillStyle = "#0095DD";
+        ctx.fillText("Оноо : 0", 20, 30);
+        ctx.fillText("Амь: 3", 400, 30);
+
+        
+        ctx.fillStyle = "#0095DD";
+
+        
+        ctx.beginPath();
+        ctx.rect(30, 50, 50, 15);
+        ctx.fill();
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.rect(30, 75, 50, 15);
+        ctx.fill();
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.rect(30, 100, 50, 15);
+        ctx.fill();
+        ctx.closePath();
+
+       
+        ctx.beginPath();
+        ctx.rect(95, 50, 50, 15);
+        ctx.fill();
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.rect(95, 75, 50, 15);
+        ctx.fill();
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.rect(95, 100, 50, 15);
+        ctx.fill();
+        ctx.closePath();
+
+       
+        ctx.beginPath();
+        ctx.rect(160, 50, 50, 15);
+        ctx.fill();
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.rect(160, 75, 50, 15);
+        ctx.fill();
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.rect(160, 100, 50, 15);
+        ctx.fill();
+        ctx.closePath();
+
+        
+        ctx.beginPath();
+        ctx.rect(215, 430, 65, 12);
+        ctx.fill();
+        ctx.closePath();
+
+       
+        ctx.beginPath();
+        ctx.arc(247, 420, 10, 0, 2*3.14);
+        ctx.fill();
+        ctx.closePath();
+    </script>
+
+</body>
+</html>
